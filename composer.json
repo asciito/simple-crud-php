@@ -1,0 +1,21 @@
+{
+    "name": "asciito/simple-crud",
+    "description": "This is just a simple CRUD",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Asciito\\SimpleCrud\\": "src/"
+        },
+        "files": [
+            "./functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "asciito",
+            "email": "ayax.cordova@aydev.mx"
+        }
+    ],
+    "require": {}
+}
