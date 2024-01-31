@@ -24,7 +24,7 @@ class Route
 
     public static function registerRoute(string $method, string $pattern, Closure $callback): void
     {
-        static::$routes[$method] = [$pattern => $callback];
+        static::$routes[$method][$pattern] = $callback;
     }
 
     public static function dispatch(): void
